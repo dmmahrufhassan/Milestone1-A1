@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body-size{
+    max-width: 1280px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 8px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+}
+.common-b{
+    background-color: rgb(16, 78, 213);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 27px;
+}
+
+/* hero banner */
+
+.hero img{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+.h-text{
+    position: absolute;
+    top: 250px; 
+     left: 50px;
+    right: 50px;
+    height: 50%;
+
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+  
+}
+.text-h1{
+      font-family: "Google Sans Flex", sans-serif;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 100px;
+    
+}
+.b-position{
+     top: 900px; 
+     left: 50px;
+    right: 50px;
+    height: 50%;
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+     position: absolute;
+     
+    
+
+
+}
+.h-button{
+     background-color: rgb(16, 78, 213);
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    padding: 25px 60px;
+    border: 0;
+}
+.text-p{
+    color:#FFFFFF;
+    font-size: 40px;
+}
+  /* Second section */
+  .h2-center{
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+.second-hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding: 200px 0;
+    gap: 40px;
+    margin-top: -150px;
+   
+  
+   
+}
+.boder-1{
+    border: solid green;
+    border-radius: 10px;
+}
+.third-hero{
+     display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding: 200px 0;
+    gap: 40px;
+    margin-top: -350px;
+   
+
+}
+.img-text{
+    padding: 8px 10px;
+    text-align: left;
+}
+.child-text{
+    color: blue;
+}
+/* Contact hero */
+.contact-hero{
+    text-align: center;
+    align-items: center;
+    margin-top: -110px;
+    list-style: none;
+}
+
+.ch-size{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.chp-size{
+    color: rgb(96, 96, 96);
+    padding: 40px;
+    margin-top: -50px;
+}
+.ch-child{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ch-shape{
+    border: solid rgb(249, 249, 249);
+    border-radius: 10px;
+    padding: 0px 5px;
+    width: 300px;
+}
+.ch-head{
+   text-align: left;
+   padding: 20px 10px;
+}
+.money{
+    font-size: 30px;
+
+}
+.text-gap{
+    gap: 400px;
+    padding: 40px 20px;
+}
+.ch-list{
+    
+    padding-left: 20px;
+    text-align: left;
+    
+}
+li::marker{
+
+    color: blue;
+
+}
+.ch-button{
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+.ch-childbutton{
+    border: solid rgb(53, 95, 220);
+    background-color: rgb(249, 250, 250);
+    padding: 10px 80px;
+    border-radius: 10px;
+    color: rgb(53, 95, 220) ;
+
+}
+.ch-sbutton{
+    
+   border: solid rgb(53, 95, 220);
+    background-color:rgb(53, 95, 220);
+    padding: 10px 100px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255) ;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.bg-colorpro{
+    background-color: rgb(4, 4, 34);
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+/* fsection */
+.fsection{
+    
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 300px 200px;
+  
+    border: solid green;
+    background-color: rgb(209, 164, 228);
+     border-radius: 10px;
+      border: 4px dashed #7C3AED;
+
+}
+
+
+
+
+.fsection-h2{
+    font-size: 40px;
+     font-family: "Google Sans Flex", sans-serif;
+     color: #7C3AED;
+     padding: 15px;
+     font-weight: bold ;
+     
+}
+.fsection-h2c{
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.fsection-center{
+    text-align: center;
+  
+}
+.fsection-p{
+     font-family: "Google Sans Flex", sans-serif;
+     color: #7C3AED;
+     font-size: 60px;
+     
+
+
+}
+/* footer */
+.main-footer{
+    background-color: #0D1B2A;
+    color: #686565;
+    margin-top: 30px;
+    padding: 50px;
+    border-radius: 1px;
+    text-align: center;
+    align-items: center;
+}
+.display-f{
+    display: flex;
+    justify-content: space-between;
+}
+.display-fp{
+    display: flex;
+    gap: 20px;
+}
+/* Finished Allahmdullahh */
