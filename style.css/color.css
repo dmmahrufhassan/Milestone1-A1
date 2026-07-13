@@ -215,7 +215,7 @@ li::marker{
     padding: 300px 200px;
   
     border: solid green;
-    background-color: rgb(209, 164, 228);
+    background-color: rgb(17, 7, 22);
      border-radius: 10px;
       border: 4px dashed #7C3AED;
 
@@ -267,4 +267,83 @@ li::marker{
     display: flex;
     gap: 20px;
 }
-/* Finished Allahmdullahh */
+
+.mark-section{
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 300px 200px;
+  
+    border: solid green;
+    background-color: rgb(209, 164, 228);
+     border-radius: 10px;
+      border: 4px dashed #7C3AED;
+}
+.ms-first{
+    /* display: flex; */
+    justify-content: space-between;
+    text-align: center;
+    align-items: left;
+   
+
+
+}
+.ms-h2{
+    font-size: 50px;
+    gap: 20px;
+    color: #686565;
+}
+.ms-p{
+    font-size: 30px;
+    font-weight: bold;
+    gap: 30px;
+    color: black;
+
+}
+.ms-sizec{
+    text-align: center;
+    align-items: left;
+    padding: 0 3px;
+    border: solid green;
+    background-color: #baeadf;
+    border-radius: 15px;
+    
+}
+.ms-motivation{
+    padding: 10px;
+    font-weight: bold;
+    color: #6c0202;
+
+}
+
+.display-sponsor{
+    font-size: 8px;
+    justify-content: center;
+}
+.display-g{
+    
+     display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    gap: 5px;
+}
+.display-g img{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+   
+}
+.b-text{
+    text-align: center;
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    
+}
+.move-on{
+    font-size: 30px;
+    margin-top: -200px;
+}
